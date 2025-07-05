@@ -1,0 +1,212 @@
+[
+  {
+    "name": "Ethiopian Yirgacheffe",
+    "description": "A bright, medium-bodied coffee with distinct floral and citrus notes.",
+    "price": 18.50,
+    "stockQuantity": 100,
+    "imageUrl": "/images/coffeebean.jpg"
+  },
+  {
+    "name": "Colombian Supremo",
+    "description": "A smooth, well-balanced coffee with notes of nuts and chocolate.",
+    "price": 15.00,
+    "stockQuantity": 100,
+    "imageUrl": "/images/coffeebean.jpg"
+  },
+  {
+    "name": "Sumatra Mandheling",
+    "description": "A rich, full-bodied coffee with earthy and spicy undertones.",
+    "price": 16.75,
+    "stockQuantity": 100,
+    "imageUrl": "/images/coffeebean.jpg"
+  },
+  {
+    "name": "Costa Rican Tarrazu",
+    "description": "A sweet, bright coffee with a crisp acidity and honeyed finish.",
+    "price": 17.25,
+    "stockQuantity": 100,
+    "imageUrl": "/images/coffeebean.jpg"
+  },
+  {
+    "name": "Guatemalan Antigua",
+    "description": "A velvety coffee with rich chocolate undertones and a hint of spice.",
+    "price": 16.00,
+    "stockQuantity": 100,
+    "imageUrl": "/images/coffeebean.jpg"
+  },
+  {
+    "name": "Kenyan AA",
+    "description": "A lively coffee with pronounced berry flavors and bright acidity.",
+    "price": 19.00,
+    "stockQuantity": 100,
+    "imageUrl": "/images/coffeebean.jpg"
+  },
+  {
+    "name": "Hawaiian Kona",
+    "description": "A smooth, mild coffee with a delicate sweetness and buttery texture.",
+    "price": 24.00,
+    "stockQuantity": 100,
+    "imageUrl": "/images/coffeebean.jpg"
+  },
+  {
+    "name": "Brazilian Santos",
+    "description": "A mellow coffee with nutty flavors and a smooth chocolate finish.",
+    "price": 14.50,
+    "stockQuantity": 100,
+    "imageUrl": "/images/coffeebean.jpg"
+  },
+  {
+    "name": "Tanzanian Peaberry",
+    "description": "A bright, fruity coffee with floral aromatics and a crisp finish.",
+    "price": 17.75,
+    "stockQuantity": 100,
+    "imageUrl": "/images/coffeebean.jpg"
+  },
+  {
+    "name": "Papua New Guinea Sigri",
+    "description": "A complex coffee with earthy flavors and a hint of tropical fruit.",
+    "price": 18.00,
+    "stockQuantity": 100,
+    "imageUrl": "/images/coffeebean.jpg"
+  },
+  {
+    "name": "Jamaican Blue Mountain",
+    "description": "An exceptionally smooth coffee with mild acidity and sweet, floral notes.",
+    "price": 25.00,
+    "stockQuantity": 100,
+    "imageUrl": "/images/coffeebean.jpg"
+  },
+  {
+    "name": "Mexican Chiapas",
+    "description": "A gentle coffee with nutty undertones and a light citrus finish.",
+    "price": 15.50,
+    "stockQuantity": 100,
+    "imageUrl": "/images/coffeebean.jpg"
+  },
+  {
+    "name": "Indian Monsooned Malabar",
+    "description": "A mellow, earthy coffee with low acidity and spicy hints.",
+    "price": 16.25,
+    "stockQuantity": 100,
+    "imageUrl": "/images/coffeebean.jpg"
+  },
+  {
+    "name": "Rwandan Bourbon",
+    "description": "A sweet coffee with bright strawberry notes and floral aroma.",
+    "price": 18.20,
+    "stockQuantity": 100,
+    "imageUrl": "/images/coffeebean.jpg"
+  },
+  {
+    "name": "Burundi Kayanza",
+    "description": "A lively coffee with red fruit notes and a creamy body.",
+    "price": 18.40,
+    "stockQuantity": 100,
+    "imageUrl": "/images/coffeebean.jpg"
+  },
+  {
+    "name": "Yemeni Mocha",
+    "description": "A complex coffee with chocolate undertones and wine-like acidity.",
+    "price": 20.00,
+    "stockQuantity": 100,
+    "imageUrl": "/images/coffeebean.jpg"
+  },
+  {
+    "name": "Sulawesi Toraja",
+    "description": "A heavy-bodied coffee with savory notes and a smooth finish.",
+    "price": 17.90,
+    "stockQuantity": 100,
+    "imageUrl": "/images/coffeebean.jpg"
+  },
+  {
+    "name": "Panamanian Geisha",
+    "description": "An exquisite coffee with jasmine aroma and tropical fruit flavors.",
+    "price": 23.50,
+    "stockQuantity": 100,
+    "imageUrl": "/images/coffeebean.jpg"
+  },
+  {
+    "name": "Nicaraguan Maragogipe",
+    "description": "A rare coffee with large beans, sweet aroma, and mild acidity.",
+    "price": 19.75,
+    "stockQuantity": 100,
+    "imageUrl": "/images/coffeebean.jpg"
+  },
+  {
+    "name": "Bolivian Caranavi",
+    "description": "A bright coffee with citrus notes and a smooth, clean finish.",
+    "price": 16.80,
+    "stockQuantity": 100,
+    "imageUrl": "/images/coffeebean.jpg"
+  },
+  {
+    "name": "Ethiopian Sidamo",
+    "description": "A delicate coffee with tea-like body and floral overtones.",
+    "price": 18.10,
+    "stockQuantity": 100,
+    "imageUrl": "/images/coffeebean.jpg"
+  },
+  {
+    "name": "Colombian Huila",
+    "description": "A crisp coffee with apple-like acidity and a chocolaty finish.",
+    "price": 15.90,
+    "stockQuantity": 100,
+    "imageUrl": "/images/coffeebean.jpg"
+  },
+  {
+    "name": "Costa Rican Tarrazu Honey",
+    "description": "A sweet coffee fermented with honeyed mucilage for rich, fruity notes.",
+    "price": 18.60,
+    "stockQuantity": 100,
+    "imageUrl": "/images/coffeebean.jpg"
+  },
+  {
+    "name": "Tanzanian Peaberry Natural",
+    "description": "A sun-dried coffee with intense fruit flavor and smooth body.",
+    "price": 17.95,
+    "stockQuantity": 100,
+    "imageUrl": "/images/coffeebean.jpg"
+  },
+  {
+    "name": "Guatemalan Huehuetenango",
+    "description": "A bright coffee with complex citrus and berry flavors.",
+    "price": 18.30,
+    "stockQuantity": 100,
+    "imageUrl": "/images/coffeebean.jpg"
+  },
+  {
+    "name": "Kenyan Peaberry",
+    "description": "A unique coffee with intense sweetness and vibrant acidity.",
+    "price": 19.20,
+    "stockQuantity": 100,
+    "imageUrl": "/images/coffeebean.jpg"
+  },
+  {
+    "name": "Brazilian Bourbon",
+    "description": "A sweet coffee with caramel and nutty flavors, smooth mouthfeel.",
+    "price": 14.80,
+    "stockQuantity": 100,
+    "imageUrl": "/images/coffeebean.jpg"
+  },
+  {
+    "name": "Mexico Altura",
+    "description": "A mild coffee with soft acidity and light chocolate notes.",
+    "price": 15.30,
+    "stockQuantity": 100,
+    "imageUrl": "/images/coffeebean.jpg"
+  },
+  {
+    "name": "Indonesian Aceh Gayo",
+    "description": "A full-bodied coffee with herbal notes and a long, smooth finish.",
+    "price": 17.55,
+    "stockQuantity": 100,
+    "imageUrl": "/images/coffeebean.jpg"
+  },
+  {
+    "name": "Panama Boquete",
+    "description": "A bright coffee with floral aromas and delicate fruit sweetness.",
+    "price": 22.00,
+    "stockQuantity": 100,
+    "imageUrl": "/images/coffeebean.jpg"
+  }
+]
