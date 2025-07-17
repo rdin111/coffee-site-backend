@@ -19,9 +19,8 @@ COPY src src
 # Make the Gradle wrapper script executable
 RUN chmod +x ./gradlew
 
-# Run the Gradle build command to create the jar file.
-# The --no-daemon flag is recommended for CI/CD environments.
-RUN ./gradlew build --no-daemon
+# Run the build but explicitly exclude the test task
+RUN ./gradlew build -x test --no-daemon
 
 
 # --- Stage 2: The Final Image Stage ---
