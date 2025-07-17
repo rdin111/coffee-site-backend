@@ -1,11 +1,9 @@
-# This block defines our managed PostgreSQL database.
 databases:
   - name: coffee-db
     plan: free
     databaseName: coffee_shop
     user: db_user
 
-# This block defines our web service that runs the application.
 services:
   - type: web
     name: coffee-shop-api
@@ -13,12 +11,9 @@ services:
     dockerfilePath: ./Dockerfile
     plan: free
     envVars:
-      # This key name MUST match the one in application.properties.
-      # Render provides the full connection string as the 'database_url' property.
       - key: DATABASE_URL
         fromDatabase:
           name: coffee-db
           property: connectionString
-      # This sets our JWT secret, which is read by application.properties.
       - key: APP_JWTSECRET
         value: p2s5v8y/B?E(H+MbQeThWmZq4t7w9z$C&F)J@NcRfUjXn2r5u8x/A%D*G-KaPdSg
