@@ -3,12 +3,10 @@ services:
   - type: pserv
     name: coffee-db
     plan: free
-    # CORRECTED: 'databaseName' is changed to 'name'
-    name: coffee_shop
-    # CORRECTED: 'user' is changed to 'username'
+    databaseName: coffee_shop
     username: db_user
 
-  # Part 2: The Spring Boot Backend Service (This part is correct and remains the same)
+  # Part 2: The Spring Boot Backend Service
   - type: web
     name: coffee-shop-api
     dockerfilePath: ./Dockerfile
