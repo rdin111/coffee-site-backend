@@ -1,15 +1,22 @@
-services:
+
+databases:
   # Part 1: The PostgreSQL Database Service
-  - type: pserv
-    name: coffee-db
+  # This block is specifically for managed databases.
+  - name: coffee-db      # This is the Service Name.
     plan: free
+    databaseName: coffee_shop # The name of the database inside PostgreSQL.
+    user: db_user       # The username for the database.
 
-
+services:
   # Part 2: The Spring Boot Backend Service
   - type: web
     name: coffee-shop-api
+    # This is the crucial line that tells Render how to build  service.
+    runtime: docker
+    # This points to the Dockerfile in  repository.
     dockerfilePath: ./Dockerfile
     plan: free
+    # Environment variables are configured here.
     envVars:
       - key: SPRING_DATASOURCE_URL
         fromDatabase:
