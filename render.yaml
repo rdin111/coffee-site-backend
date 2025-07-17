@@ -3,8 +3,7 @@ services:
   - type: pserv
     name: coffee-db
     plan: free
-    databaseName: coffee_shop
-    username: db_user
+
 
   # Part 2: The Spring Boot Backend Service
   - type: web
