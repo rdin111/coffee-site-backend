@@ -19,7 +19,8 @@ COPY src src
 # Make the Gradle wrapper script executable
 RUN chmod +x ./gradlew
 
-# Run the build but explicitly exclude the test task
+# --- THIS IS THE FIX ---
+# Run the build but explicitly EXCLUDE the test task
 RUN ./gradlew build -x test --no-daemon
 
 
