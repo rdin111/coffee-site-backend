@@ -1,0 +1,35 @@
+services:
+  # Part 1: The PostgreSQL Database Service
+  - type: pserv
+    name: coffee-db
+    plan: free
+    databaseName: coffee_shop
+    user: db_user
+
+  # Part 2: The Spring Boot Backend Service
+  - type: web
+    name: coffee-shop-api
+    dockerfilePath: ./Dockerfile
+    plan: free
+    envVars:
+      # This special value gets the connection URL from the coffee-db we defined above
+      - key: SPRING_DATASOURCE_URL
+        fromDatabase:
+          name: coffee-db
+          property: connectionString
+      # This gets the username from the coffee-db service
+      - key: SPRING_DATASOURCE_USERNAME
+        fromDatabase:
+          name: coffee-db
+          property: user
+      # This gets the auto-generated password from the coffee-db service
+      - key: SPRING_DATASOURCE_PASSWORD
+        fromDatabase:
+          name: coffee-db
+          property: password
+      # This sets our JWT secret
+      - key: APP_JWTSECRET
+        value: p2s5v8y/B?E(H+MbQeThWmZq4t7w9z$C&F)J@NcRfUjXn2r5u8x/A%D*G-KaPdSg
+      # We disable caching by setting the type to 'none' for Render's free tier
+      - key: SPRING_CACHE_TYPE
+        value: none
