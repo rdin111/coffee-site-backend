@@ -16,6 +16,9 @@ COPY settings.gradle .
 # Copy the rest of the source code
 COPY src src
 
+# Make the Gradle wrapper script executable
+RUN chmod +x ./gradlew
+
 # Run the Gradle build command to create the jar file.
 # The --no-daemon flag is recommended for CI/CD environments.
 RUN ./gradlew build --no-daemon
