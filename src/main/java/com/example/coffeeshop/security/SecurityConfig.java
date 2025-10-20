@@ -73,7 +73,9 @@ public class SecurityConfig {
         CorsConfiguration configuration = new CorsConfiguration();
         configuration.setAllowedOrigins(Arrays.asList(
                 "http://localhost:5173",
-                "https://www.coffees.dev"
+                "https://www.coffees.dev",
+                "https://the-coffee-shop-api.onrender.com"
+
         ));
 
         configuration.setAllowedMethods(Arrays.asList("GET", "POST", "PUT", "DELETE", "OPTIONS"));
